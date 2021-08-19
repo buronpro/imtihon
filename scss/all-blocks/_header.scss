@@ -1,0 +1,40 @@
+.header .container { 
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex ;
+}
+
+.header__logo {
+   margin: 15px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    padding: 10px 10px;
+}
+
+.nav__link {
+    color: #33323D;
+
+    &:hover {
+       color: #5FB4A2 ;
+    }
+}
+
+
+.about .container{
+    width: 1110px;
+    height: 600px;
+    padding-top: 165px;
+    padding-left: 150px;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

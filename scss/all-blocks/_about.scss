@@ -1,0 +1,156 @@
+
+
+// .about .container {
+//   width: 1110px;
+//   height: 600px;
+//   background-image: url("../../images/header.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+
+.about__item {
+    display: flex;
+    // padding: 120px;
+    padding-top: 80px ;
+    width: 1015px;
+    height: 600px;
+   padding-left: 35px;
+}
+
+hr {
+width: 350px;
+height: 1px;
+padding-right: 0;
+color: #33323D;
+mix-blend-mode: normal;
+opacity: 0.15;
+}
+
+.about__des {
+  width: 350px;
+  height: 502px;
+  margin: 0;
+  padding: 0;
+}
+
+.about__h {
+height: 42px;
+left: 0%;
+right: 0%;
+padding-left: 85px;
+font-family:'Ibarra Real Nova';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+}
+
+.about__p {
+padding-left: 85px;
+height: 360px;
+left: 0%;
+right: 0%;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+color: #33323D;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.about_link {
+    margin-left: 85px;
+    width: 202px;
+    height: 48px;
+    padding: 10px 37px;
+    border: 1px solid #33323D;
+}
+
+.about__link {
+width: 132px; 
+height: 14px;
+margin: 0;
+padding: 0;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+text-transform: uppercase;
+color: #33323D;
+}
+
+
+.box {
+  width: 445px;
+ height: 357px;
+ background-color: #fff;
+ margin-top: 80px;
+ margin-left: -150px;
+}
+
+.box__text {
+height: 200px;
+padding: 26px 56px;
+font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 50px;
+color: #33323D;
+}
+
+.box__item {
+
+  padding: 60px;
+  padding-left: 0px;
+}
+
+.box__link {
+width: 155px;
+height: 28px;
+margin: -3px;
+padding: 25px 50px;
+font-family:'Public Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+text-align: center;
+background-color: #203A4C;
+color: #fff;
+transition: 0.2s ease;
+
+
+&:hover {
+  background-color:  #5FB4A2;
+  
+
+  &:active {
+    background-color: #FFFFFF;
+  }
+}
+}
+
+.strilka__img {
+  margin-left: -3px;
+  width: 60px;
+  height: 66px;
+  background-color:#000000;
+  opacity: 0.8;
+  transition: 0.2s ease;
+
+  &:hover {
+    background-color: #000000;
+    opacity: 0.1;
+  }
+}
+
+button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}

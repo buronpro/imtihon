@@ -1,0 +1,41 @@
+.footer .container {
+width: 1180px;
+height: 80px;
+background-color: #33323D;
+}
+
+.footer {
+ margin: 240px;
+}
+
+.footer__logo {
+ margin: 25px;
+}
+
+.navber {
+    margin: -90px;
+    // display: flex;
+    margin-left: 75px;
+}
+
+.navber__list {
+    display: flex;
+}
+
+.navber__item {
+    padding: 25px 15px;
+}
+
+.navber_link {
+    color: #fff;
+}
+
+.footer__item {
+    display: flex;
+    margin-left: 950px;
+}
+
+.footer__list {
+    padding: 25px 5px;
+}
+

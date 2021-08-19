@@ -1,0 +1,60 @@
+.doing__info {
+width: 1110px;
+height: 84px;
+// padding-left: 165px;
+padding-top: 138px;
+
+}
+
+.doing__itam {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doing__h {
+width: 350px;
+height: 84px;
+margin: 0;
+padding: 0;
+font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+}
+
+.doing_link {
+    width: 160px;
+    height: 48px;
+    padding: 10px 28px;
+    border: 1px solid #33323D;
+    text-align: center;
+    align-self: center;
+}
+
+
+.doing__link {
+ display: inline-block;
+ width: 94px;
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-align: center;
+text-transform: uppercase;
+color: #33323D;
+}
+
+.bekkkk {
+ width: 514px;
+ height: 1px;
+ margin: 50px;
+background: #33323D;
+mix-blend-mode: normal;
+opacity: 0.15;
+    
+}
